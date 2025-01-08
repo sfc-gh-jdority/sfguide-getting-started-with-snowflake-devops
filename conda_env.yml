@@ -1,0 +1,12 @@
+name: devops
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+dependencies:
+  - python=3.11
+  - snowflake-snowpark-python[pandas]
+  - ipykernel
+  - pip
+  - pip:
+    - snowflake
+    - snowflake-cli-labs==2.0.0rc1
+

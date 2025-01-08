@@ -1,0 +1,4 @@
+conda env create -f conda_env.yml
+pip install PyYaml
+conda activate devops
+
